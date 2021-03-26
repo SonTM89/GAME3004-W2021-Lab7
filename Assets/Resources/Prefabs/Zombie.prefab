@@ -443,7 +443,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1239401072288251785}
   - component: {fileID: 6272215500793099794}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Jill_HiRes_Head_Geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1107,7 +1107,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5840208192344413706}
-  m_Layer: 0
+  - component: {fileID: 8911283795681489238}
+  m_Layer: 9
   m_Name: Jill_HiRes_Meshes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1122,7 +1123,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2454387815862452620}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: -0.07, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6224632417535316182}
@@ -1136,6 +1137,20 @@ Transform:
   m_Father: {fileID: 6357337237699881772}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &8911283795681489238
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2454387815862452620}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.6
+  m_Height: 1.8188671
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &2661639623450415336
 GameObject:
   m_ObjectHideFlags: 0
@@ -1544,7 +1559,7 @@ GameObject:
   m_Component:
   - component: {fileID: 223869493192725521}
   - component: {fileID: 9110293796259317939}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Jill_HiRes_EyeSpec_Geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1644,7 +1659,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5991704312372277896}
   - component: {fileID: 523253853694536967}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Jill_HiRes_Gown_Geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1932,7 +1947,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8360456628632798173}
   - component: {fileID: 9160345816184575953}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Jill_HiRes_Limbs_Geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2107,7 +2122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3047467395599017406}
   - component: {fileID: 2785096150862245624}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Jill_HiRes_Eyes_Geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2812,7 +2827,7 @@ Transform:
   m_GameObject: {fileID: 6012899395061068182}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.8, y: 1.8, z: 1.8}
   m_Children:
   - {fileID: 6359413789068012581}
   - {fileID: 5840208192344413706}
@@ -2864,7 +2879,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 6012899395061068182}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
+  m_Radius: 0.6
   m_Speed: 3.5
   m_Acceleration: 8
   avoidancePriority: 50
@@ -3039,7 +3054,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7147757329900676794}
   - component: {fileID: 6594794486233233545}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Jill_HiRes_Hair_Geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3836,7 +3851,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3878000707401333896}
   - component: {fileID: 9134067940982349572}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Jill_HiRes_Teeth_Geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4099,7 +4114,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6224632417535316182}
   - component: {fileID: 1952868438196189931}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Jill_HiRes_Caruncula_Geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
